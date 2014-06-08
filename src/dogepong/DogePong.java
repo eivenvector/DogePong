@@ -19,8 +19,7 @@ public class DogePong {
         frame = new JFrame();
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         
-        dPanel = new DogePanel("/Users/Ivan/Documents/NetBeans"
-                + "Projects/DogePong/media/south_park_elementary.png");
+        dPanel = new DogePanel("media/south_park_elementary.png");
         
         dPanel.setFocusable(true);
         dPanel.requestFocusInWindow();
